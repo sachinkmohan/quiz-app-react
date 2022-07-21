@@ -58,7 +58,7 @@ export default function App() {
           </div>
           <div className="answer-section">
             {questions[1].answerOptions.map((answerOption, index) => (
-              <button>{answerOption.answerText}</button>
+              <button>{answerOption.answerTexst}</button>
             ))}
           </div>
         </>
